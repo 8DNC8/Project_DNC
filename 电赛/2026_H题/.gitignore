@@ -1,0 +1,25 @@
+# ===== 忽略规则（按你的项目定制）=====
+
+# WorkBuddy 会话数据（不进仓库）
+.workbuddy/
+
+# 依赖目录（如有）
+node_modules/
+vendor/
+__pycache__/
+*.pyc
+
+# 系统 / IDE 垃圾文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+.idea/
+.vscode/
+
+# 编译 / 构建产物（按需取消注释）
+# build/
+# dist/
+# out/
+# bin/
+# obj/

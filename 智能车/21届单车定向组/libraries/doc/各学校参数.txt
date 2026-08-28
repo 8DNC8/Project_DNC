@@ -1,0 +1,5 @@
+广州新华学院
+#define SERVO_MOTOR_FREQ            (300)                                        // 定义主板上舵机频率  请务必注意范围
+#define SERVO_MOTOR_MID             (122)                                     
+#define SERVO_MOTOR_LMAX            (72)                                    
+#define SERVO_MOTOR_RMAX            (172)    

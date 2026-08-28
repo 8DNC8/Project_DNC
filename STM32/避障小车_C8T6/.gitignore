@@ -1,0 +1,46 @@
+# dot files
+/.vscode/launch.json
+/.vscode/*.log
+/.vscode/*.log.lock
+/.settings
+/.eide/log
+/.eide.usr.ctx.json
+/.eide/res
+
+# project out
+/build
+/bin
+/obj
+/out
+/Objects
+/Listings
+/RTE/_build*
+
+# eide template
+*.ept
+*.eide-template
+
+# keil user specific
+*.uvguix.*
+*.uvoptx
+*.bak
+*.scvd
+
+# auto-downloaded cmsis packs (regenerable)
+/.pack/
+/.cmsis/
+
+# compiled artifacts
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.sct
+
+# misc
+*.url

@@ -1,0 +1,75 @@
+# ==================== Keil MDK-ARM ====================
+# 编译输出目录
+Listings/
+Objects/
+DebugConfig/
+RTE/
+build/
+Debug/
+Release/
+
+# 目标文件与依赖文件
+*.o
+*.obj
+*.d
+*.dep
+*.crf
+*.lnp
+*.iex
+
+# 可执行/烧录文件（通常不纳入版本控制，如需保留可注释掉对应行）
+*.axf
+*.elf
+*.hex
+*.bin
+
+# 列表与映射文件
+*.lst
+*.map
+*.htm
+
+# Keil 用户特定 GUI 状态文件（不共享）
+*.uvguix.*
+*.uvoptx
+*.uvgui.*
+
+# Event Recorder
+*.scvd
+
+# ==================== STM32CubeIDE / SW4STM32 ====================
+.settings/
+.metadata/
+*.cproject
+*.project
+
+# ==================== VS Code / EIDE ====================
+.vscode/
+.eide/
+.cmsis/
+.pack/
+.workbuddy/
+.reasonix/
+.vs/
+
+# ==================== 系统与编辑器 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ==================== 其他 ====================
+# 日志文件
+*.log
+
+# 压缩包（源码解压后不再需要）
+*.zip
+*.rar
+*.7z
+
+# keilkill.bat 是清理脚本，保留
+# 如需忽略可取消下一行注释
+# keilkill.bat
